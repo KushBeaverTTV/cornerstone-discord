@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "cornerstone.discord",
+  "name": "Cornerstone Discord",
+  "version": "1.0.0",
+  "author": "Kush Beaver Productionz",
+  "license": "MIT",
+  "description": "Discord in the bar: mute and deafen without switching windows, and open, hide or close the one Discord window.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "activation": "on-demand",
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Cornerstone Discord",
+    "description": "Mute / deafen and open / hide / close Discord.",
+    "category": "Apps",
+    "aliases": [
+      "discord"
+    ],
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {}
+  }
+}
